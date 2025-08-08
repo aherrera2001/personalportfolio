@@ -155,6 +155,7 @@ nav ul li a:hover::after{
     width: 100%;
     border-radius: 10px;
     display: block;
+    height: 100%;
  }
  .layer {
     position: absolute;
