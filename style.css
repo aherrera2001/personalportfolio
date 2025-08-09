@@ -301,3 +301,7 @@ form btn2{
     margin-top: -40px;
     display: block;
 }
+/*----- hidden display for works-----*/
+.hidden {
+    display: none;
+}
