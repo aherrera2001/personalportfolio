@@ -305,3 +305,33 @@ form btn2{
 .hidden {
     display: none;
 }
+/*--- added drawing---*/
+.city-container {
+    display: inline-flex;
+    flex-direction: row;         
+    align-items: center;         
+    gap: 8px;                   
+    white-space: nowrap;        
+  }
+  .chicago-skyscraper {
+    width: 100px;               
+    height: auto;
+    stroke: #fff;
+  }
+  .chicago-skyscraper path {
+    stroke-dasharray: 400;      
+    stroke-dashoffset: 400;
+    animation: drawOutline 3.5s linear forwards;
+    stroke-width: 1.6;         
+    fill: none;
+  }
+  @keyframes drawOutline {
+    to {
+      stroke-dashoffset: 0;
+    }
+  }
+  
+/*----- chicago change--------*/
+.city-container span{
+    color: #fff; 
+  }
